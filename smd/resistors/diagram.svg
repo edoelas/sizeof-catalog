@@ -1,0 +1,29 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .component-body { fill: #333; stroke: #000; stroke-width: 1; }
+    .terminal { fill: #ccc; stroke: #999; stroke-width: 1; }
+    .dim-line { stroke: #000; stroke-width: 1; }
+    .dim-text { font-family: sans-serif; font-size: 14px; text-anchor: middle; }
+  </style>
+
+  <g transform="translate(100, 100)">
+    <!-- Terminals (P) -->
+    <rect x="0" y="0" width="40" height="80" class="terminal" />
+    <rect x="160" y="0" width="40" height="80" class="terminal" />
+    
+    <!-- Main Body (L x W) -->
+    <rect x="40" y="5" width="120" height="70" class="component-body" fill="#222" />
+    
+    <!-- L dimension -->
+    <line x1="0" y1="100" x2="200" y2="100" class="dim-line" />
+    <line x1="0" y1="85" x2="0" y2="105" stroke="#000" />
+    <line x1="200" y1="85" x2="200" y2="105" stroke="#000" />
+    <text id="val_L" x="100" y="95" class="dim-text">L</text>
+    
+    <!-- W dimension -->
+    <line x1="-20" y1="0" x2="-20" y2="80" class="dim-line" />
+    <line x1="-15" y1="0" x2="-25" y2="0" stroke="#000" />
+    <line x1="-15" y1="80" x2="-25" y2="80" stroke="#000" />
+    <text id="val_W" x="-30" y="45" class="dim-text" transform="rotate(-90 -30 45)">W</text>
+  </g>
+</svg>

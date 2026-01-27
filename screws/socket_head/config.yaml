@@ -1,0 +1,21 @@
+name: "Socket Head Cap Screws"
+standard: "DIN 912 / ISO 4762"
+columns:
+  - key: "size"
+    label: "Nominal Size"
+  - key: "pitch"
+    label: "Thread Pitch"
+  - key: "H"
+    label: "Head Diameter (Max)"
+  - key: "K"
+    label: "Height of Head (Max)"
+  - key: "S"
+    label: "Hex Socket Drive"
+  - key: "Length"
+    label: "Length"
+data:
+  - { size: "M3", pitch: "0.5mm", H: "5.5mm", K: "3.0mm", S: "2.5mm", Length: "10mm" }
+  - { size: "M4", pitch: "0.7mm", H: "7.0mm", K: "4.0mm", S: "3.0mm", Length: "12mm" }
+  - { size: "M5", pitch: "0.8mm", H: "8.5mm", K: "5.0mm", S: "4.0mm", Length: "16mm" }
+  - { size: "M6", pitch: "1.0mm", H: "10.0mm", K: "6.0mm", S: "5.0mm", Length: "20mm" }
+  - { size: "M8", pitch: "1.25mm", H: "13.0mm", K: "8.0mm", S: "6.0mm", Length: "25mm" }
