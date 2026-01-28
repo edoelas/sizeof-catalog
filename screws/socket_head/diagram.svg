@@ -417,7 +417,7 @@
                 <path id="LINE144" serif:id="LINE" d="M77.125,-74.464L102.149,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
                 <g id="MTEXT2" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,102.079,-73.638)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">Length</text>
+                        <text id="val_Length" x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">Length</text>
                     </g>
                 </g>
             </g>
