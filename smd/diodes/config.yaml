@@ -1,0 +1,18 @@
+name: "SMD Chip Resistor"
+standard: "JEDEC"
+columns:
+  - key: "package"
+    label: "Package"
+  - key: "L"
+    label: "Length (L)"
+  - key: "W"
+    label: "Width (W)"
+  - key: "T"
+    label: "Thickness (Max)"
+  - key: "P"
+    label: "Pad Length"
+data:
+  - { package: "0402", L: "1.0mm", W: "0.5mm", T: "0.35mm", P: "0.25mm" }
+  - { package: "0603", L: "1.6mm", W: "0.8mm", T: "0.45mm", P: "0.30mm" }
+  - { package: "0805", L: "2.0mm", W: "1.25mm", T: "0.50mm", P: "xxxxmm" }
+  - { package: "1206", L: "3.2mm", W: "1.6mm", T: "0.55mm", P: "xxxmm" }
