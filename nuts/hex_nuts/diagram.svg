@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Side View -->
+  <rect x="20" y="30" width="60" height="40" fill="none" stroke="black" stroke-width="2" />
+  <line x1="20" y1="30" x2="80" y2="30" stroke="black" stroke-width="2" />
+  <line x1="20" y1="70" x2="80" y2="70" stroke="black" stroke-width="2" />
+  <!-- Chamfers representation -->
+  <path d="M 20 30 Q 30 40 40 30" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 40 30 Q 50 40 60 30" fill="none" stroke="black" stroke-width="1" />
+  <path d="M 60 30 Q 70 40 80 30" fill="none" stroke="black" stroke-width="1" />
+  
+  <!-- Dimension m -->
+  <line x1="10" y1="30" x2="10" y2="70" stroke="black" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+  <text x="5" y="55" font-family="Arial" font-size="12" text-anchor="end">m</text>
+
+  <!-- Top View (Hexagon) -->
+  <polygon points="130,20 160,20 175,46 160,72 130,72 115,46" fill="none" stroke="black" stroke-width="2" />
+  <circle cx="145" cy="46" r="12" fill="none" stroke="black" stroke-width="2" />
+  
+  <!-- Dimension s -->
+  <line x1="130" y1="10" x2="160" y2="10" stroke="black" stroke-width="1" />
+  <line x1="130" y1="15" x2="130" y2="20" stroke="black" stroke-width="1" />
+  <line x1="160" y1="15" x2="160" y2="20" stroke="black" stroke-width="1" />
+  <text x="145" y="8" font-family="Arial" font-size="12" text-anchor="middle">s</text>
+
+</svg>
