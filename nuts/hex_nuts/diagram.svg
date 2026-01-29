@@ -1,25 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
-  <!-- Side View -->
-  <rect x="20" y="30" width="60" height="40" fill="none" stroke="black" stroke-width="2" />
-  <line x1="20" y1="30" x2="80" y2="30" stroke="black" stroke-width="2" />
-  <line x1="20" y1="70" x2="80" y2="70" stroke="black" stroke-width="2" />
-  <!-- Chamfers representation -->
-  <path d="M 20 30 Q 30 40 40 30" fill="none" stroke="black" stroke-width="1" />
-  <path d="M 40 30 Q 50 40 60 30" fill="none" stroke="black" stroke-width="1" />
-  <path d="M 60 30 Q 70 40 80 30" fill="none" stroke="black" stroke-width="1" />
-  
-  <!-- Dimension m -->
-  <line x1="10" y1="30" x2="10" y2="70" stroke="black" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)" />
-  <text x="5" y="55" font-family="Arial" font-size="12" text-anchor="end">m</text>
-
-  <!-- Top View (Hexagon) -->
-  <polygon points="130,20 160,20 175,46 160,72 130,72 115,46" fill="none" stroke="black" stroke-width="2" />
-  <circle cx="145" cy="46" r="12" fill="none" stroke="black" stroke-width="2" />
-  
-  <!-- Dimension s -->
-  <line x1="130" y1="10" x2="160" y2="10" stroke="black" stroke-width="1" />
-  <line x1="130" y1="15" x2="130" y2="20" stroke="black" stroke-width="1" />
-  <line x1="160" y1="15" x2="160" y2="20" stroke="black" stroke-width="1" />
-  <text x="145" y="8" font-family="Arial" font-size="12" text-anchor="middle">s</text>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 54 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-21.915,-27.7874)">
+        <g id="_0" serif:id="0" transform="matrix(1,0,0,1,2.59565,74.1507)">
+            <path id="CIRCLE" d="M30.8,-22.222C34.711,-22.222 37.886,-25.397 37.886,-29.308C37.886,-33.22 34.711,-36.395 30.8,-36.395C26.888,-36.395 23.713,-33.22 23.713,-29.308C23.713,-25.397 26.888,-22.222 30.8,-22.222Z" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC" d="M36.469,-19.489C39.977,-21.514 42.138,-25.258 42.138,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE" d="M42.138,-23.089L42.138,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE1" serif:id="SPLINE" d="M41.855,-22.598C41.939,-22.647 42.012,-22.719 42.062,-22.805C42.112,-22.892 42.138,-22.992 42.138,-23.089" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE2" serif:id="SPLINE" d="M36.469,-19.489C37.382,-20.016 40.975,-22.091 41.855,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC1" serif:id="ARC" d="M25.13,-19.489C28.639,-17.463 32.961,-17.463 36.469,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC2" serif:id="ARC" d="M19.461,-29.308C19.461,-25.258 21.622,-21.514 25.13,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC3" serif:id="ARC" d="M25.13,-39.128C21.622,-37.102 19.461,-33.359 19.461,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC4" serif:id="ARC" d="M36.469,-39.128C32.961,-41.153 28.639,-41.153 25.13,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC5" serif:id="ARC" d="M42.138,-29.308C42.138,-33.359 39.977,-37.102 36.469,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="CIRCLE1" serif:id="CIRCLE" d="M30.8,-21.995C34.836,-21.995 38.113,-25.272 38.113,-29.308C38.113,-33.345 34.836,-36.622 30.8,-36.622C26.763,-36.622 23.486,-33.345 23.486,-29.308C23.486,-25.272 26.763,-21.995 30.8,-21.995Z" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE3" serif:id="SPLINE" d="M31.083,-42.237C30.999,-42.286 30.9,-42.313 30.8,-42.313C30.7,-42.313 30.601,-42.286 30.516,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE4" serif:id="SPLINE" d="M30.516,-42.237C28.753,-41.219 26.964,-40.186 25.13,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE5" serif:id="SPLINE" d="M36.469,-39.128C35.556,-39.655 31.963,-41.73 31.083,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE6" serif:id="SPLINE" d="M30.516,-16.379C30.601,-16.331 30.699,-16.304 30.799,-16.303C30.899,-16.303 30.999,-16.331 31.083,-16.379" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE7" serif:id="SPLINE" d="M31.083,-16.379C32.846,-17.397 34.636,-18.43 36.469,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE8" serif:id="SPLINE" d="M25.13,-19.489C26.044,-18.962 29.637,-16.887 30.516,-16.379" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE9" serif:id="SPLINE" d="M19.461,-23.089C19.461,-22.992 19.487,-22.893 19.537,-22.806C19.587,-22.72 19.66,-22.647 19.745,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE10" serif:id="SPLINE" d="M19.745,-22.598C21.508,-21.58 23.297,-20.547 25.13,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE11" serif:id="SPLINE" d="M19.461,-23.089L19.461,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE12" serif:id="SPLINE" d="M19.745,-36.018C19.66,-35.97 19.587,-35.898 19.537,-35.811C19.487,-35.725 19.461,-35.625 19.461,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE13" serif:id="SPLINE" d="M19.461,-29.308L19.461,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE14" serif:id="SPLINE" d="M25.13,-39.128C24.217,-38.601 20.624,-36.526 19.745,-36.018" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE15" serif:id="SPLINE" d="M42.138,-35.527C42.138,-35.625 42.112,-35.724 42.063,-35.81C42.013,-35.897 41.939,-35.97 41.855,-36.018" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE16" serif:id="SPLINE" d="M42.138,-29.308L42.138,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE17" serif:id="SPLINE" d="M41.855,-36.018C40.092,-37.036 38.302,-38.069 36.469,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC6" serif:id="ARC" d="M30.8,-22.222C33.875,-22.222 36.599,-24.205 37.544,-27.132C38.488,-30.058 37.437,-33.26 34.942,-35.058" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE18" serif:id="SPLINE" d="M34.942,-35.058C35.285,-34.742 35.594,-34.399 35.866,-34.028C36.137,-33.657 36.373,-33.251 36.562,-32.829C36.751,-32.407 36.894,-31.971 36.99,-31.52C37.087,-31.069 37.136,-30.602 37.135,-30.142C37.135,-29.682 37.088,-29.224 36.986,-28.769C36.884,-28.314 36.731,-27.88 36.529,-27.468C36.328,-27.056 36.073,-26.66 35.78,-26.305C35.486,-25.95 35.154,-25.632 34.782,-25.352" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC7" serif:id="ARC" d="M34.782,-25.352C35.831,-26.408 36.418,-27.837 36.413,-29.326" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE19" serif:id="SPLINE" d="M36.413,-29.326C36.435,-29.936 36.361,-30.533 36.191,-31.119C36.02,-31.704 35.763,-32.249 35.419,-32.75C34.732,-33.753 33.732,-34.517 32.596,-34.931C32.312,-35.034 32.017,-35.116 31.721,-35.174C31.425,-35.232 31.126,-35.268 30.825,-35.28C30.223,-35.304 29.611,-35.237 29.03,-35.083C28.448,-34.929 27.882,-34.684 27.372,-34.366C26.862,-34.048 26.394,-33.646 25.999,-33.193C25.604,-32.739 25.271,-32.222 25.022,-31.673C24.773,-31.124 24.603,-30.538 24.521,-29.939C24.44,-29.339 24.445,-28.737 24.535,-28.135C24.626,-27.532 24.798,-26.957 25.051,-26.407C25.304,-25.857 25.635,-25.345 26.029,-24.889C26.422,-24.434 26.886,-24.029 27.388,-23.699C27.89,-23.369 28.446,-23.104 29.019,-22.922C29.592,-22.741 30.191,-22.637 30.8,-22.617" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE" d="M30.8,-22.222L30.8,-22.617" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="ARC8" serif:id="ARC" d="M36.413,-29.348C36.394,-32.024 34.489,-34.314 31.861,-34.82C29.233,-35.326 26.613,-33.907 25.602,-31.429C24.591,-28.952 25.469,-26.105 27.7,-24.627C29.932,-23.15 32.896,-23.453 34.782,-25.352" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <g id="ROTATED-DIMENSION" serif:id="ROTATED DIMENSION">
+                <path id="SOLID" d="M19.461,-45.628L20.483,-45.47L20.483,-45.785L19.461,-45.628Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="SOLID1" serif:id="SOLID" d="M42.138,-45.628L41.117,-45.785L41.117,-45.47L42.138,-45.628Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="LINE1" serif:id="LINE" d="M19.461,-36.907L19.461,-46.154" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE2" serif:id="LINE" d="M42.138,-36.907L42.138,-46.154" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <g id="LINE3" serif:id="LINE" transform="matrix(0.697592,0,0,1,5.88519,0)">
+                    <path d="M19.461,-45.628L29.239,-45.628" style="fill:none;stroke:black;stroke-width:0.33px;"/>
+                </g>
+                <g id="LINE4" serif:id="LINE" transform="matrix(0.703069,0,0,1,12.5121,0)">
+                    <path d="M42.138,-45.628L32.357,-45.628" style="fill:none;stroke:black;stroke-width:0.33px;"/>
+                </g>
+                <g id="MTEXT" transform="matrix(2.83465,0,0,2.83465,29.4994,-45.2931)">
+                    <g transform="matrix(0.948,0,0,1,5.77316e-18,0)">
+                        <g transform="matrix(0.518595,0,0,0.518595,0.952108,0)">
+                        </g>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.519px;">{{s}}</text>
+                    </g>
+                </g>
+            </g>
+            <g id="MTEXT1" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,22.3502,-12.4495)">
+                <g transform="matrix(0.529167,0,0,0.529167,3.44824,0)">
+                </g>
+                <text x="1.624px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.529px;">{{pitch}}</text>
+            </g>
+            <g id="LEADER">
+                <path id="SOLID2" serif:id="SOLID" d="M32.551,-21.431L32.634,-22.463L32.89,-21.46L32.551,-21.431Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="LINE5" serif:id="LINE" d="M32.721,-21.445L33.456,-12.807" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE6" serif:id="LINE" d="M33.456,-12.807L32.404,-12.807" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            </g>
+            <path id="LINE7" serif:id="LINE" d="M72.45,-40.647L71.488,-42.313" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE8" serif:id="LINE" d="M71.488,-16.303L72.45,-17.97" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE9" serif:id="LINE" d="M62.074,-42.313L61.112,-40.647" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE10" serif:id="LINE" d="M61.112,-17.97L62.074,-16.303" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE11" serif:id="LINE" d="M71.488,-42.313L62.074,-42.313" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE12" serif:id="LINE" d="M62.074,-16.303L71.488,-16.303" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE20" serif:id="SPLINE" d="M72.45,-19.489C72.45,-20.016 72.363,-20.543 72.203,-21.061C72.044,-21.579 71.812,-22.091 71.53,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE21" serif:id="SPLINE" d="M71.53,-23.089C71.503,-22.992 71.488,-22.893 71.488,-22.806C71.488,-22.72 71.503,-22.647 71.53,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE22" serif:id="SPLINE" d="M71.53,-23.089C71.812,-24.106 72.046,-25.14 72.205,-26.177C72.364,-27.213 72.45,-28.257 72.45,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE13" serif:id="LINE" d="M72.45,-29.308L72.45,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE23" serif:id="SPLINE" d="M72.45,-29.308C72.45,-30.361 72.362,-31.425 72.202,-32.463C72.041,-33.501 71.81,-34.52 71.53,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE24" serif:id="SPLINE" d="M71.53,-36.018C71.503,-35.97 71.488,-35.898 71.488,-35.811C71.488,-35.725 71.503,-35.625 71.53,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE25" serif:id="SPLINE" d="M71.53,-36.018C72.095,-37.036 72.45,-38.069 72.45,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE14" serif:id="LINE" d="M72.45,-29.308L72.45,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE26" serif:id="SPLINE" d="M61.112,-29.308C61.112,-30.361 61.2,-31.425 61.36,-32.463C61.521,-33.501 61.752,-34.52 62.032,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE15" serif:id="LINE" d="M71.53,-35.527L62.032,-35.527" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE16" serif:id="LINE" d="M62.032,-23.089L71.53,-23.089" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE27" serif:id="SPLINE" d="M62.032,-23.089C61.75,-24.106 61.516,-25.14 61.357,-26.177C61.197,-27.213 61.112,-28.257 61.112,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE17" serif:id="LINE" d="M62.032,-36.018L71.53,-36.018" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE28" serif:id="SPLINE" d="M62.032,-35.527C62.059,-35.625 62.074,-35.724 62.074,-35.81C62.074,-35.897 62.059,-35.97 62.032,-36.018" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE18" serif:id="LINE" d="M61.112,-29.308L61.112,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE29" serif:id="SPLINE" d="M62.032,-36.018C61.466,-37.036 61.112,-38.069 61.112,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE19" serif:id="LINE" d="M61.112,-19.489L61.112,-29.308" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE30" serif:id="SPLINE" d="M62.032,-22.598C62.059,-22.647 62.074,-22.719 62.074,-22.805C62.074,-22.892 62.059,-22.992 62.032,-23.089" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE31" serif:id="SPLINE" d="M61.112,-19.489C61.112,-20.016 61.199,-20.543 61.359,-21.061C61.518,-21.579 61.75,-22.091 62.032,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE20" serif:id="LINE" d="M71.53,-22.598L62.032,-22.598" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE32" serif:id="SPLINE" d="M61.112,-39.128C61.112,-39.655 61.199,-40.182 61.359,-40.7C61.518,-41.218 61.75,-41.73 62.032,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE21" serif:id="LINE" d="M71.53,-42.237L62.032,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE33" serif:id="SPLINE" d="M72.45,-39.128C72.45,-39.655 72.363,-40.182 72.203,-40.7C72.044,-41.218 71.812,-41.73 71.53,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE34" serif:id="SPLINE" d="M71.53,-16.379C72.095,-17.397 72.45,-18.43 72.45,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE22" serif:id="LINE" d="M62.032,-16.379L71.53,-16.379" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE35" serif:id="SPLINE" d="M62.032,-16.379C61.466,-17.397 61.112,-18.43 61.112,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE36" serif:id="SPLINE" d="M71.488,-42.313C71.488,-42.313 71.488,-42.313 71.488,-42.313C71.488,-42.314 71.489,-42.313 71.489,-42.311C71.49,-42.31 71.527,-42.244 71.53,-42.237" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE23" serif:id="LINE" d="M72.45,-40.647L72.45,-39.128" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE37" serif:id="SPLINE" d="M71.53,-16.379C71.527,-16.373 71.488,-16.304 71.488,-16.304" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE24" serif:id="LINE" d="M72.45,-19.489L72.45,-17.97" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE38" serif:id="SPLINE" d="M62.032,-42.237C62.035,-42.244 62.074,-42.313 62.074,-42.313" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE25" serif:id="LINE" d="M61.112,-39.128L61.112,-40.647" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="SPLINE39" serif:id="SPLINE" d="M62.074,-16.304C62.074,-16.304 62.074,-16.303 62.074,-16.303C62.074,-16.303 62.073,-16.304 62.073,-16.305C62.072,-16.307 62.035,-16.373 62.032,-16.379" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <path id="LINE26" serif:id="LINE" d="M61.112,-17.97L61.112,-19.489" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+            <g id="ROTATED-DIMENSION1" serif:id="ROTATED DIMENSION">
+                <path id="SOLID3" serif:id="SOLID" d="M61.112,-45.628L62.133,-45.47L62.133,-45.785L61.112,-45.628Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="SOLID4" serif:id="SOLID" d="M72.45,-45.628L71.429,-45.785L71.429,-45.47L72.45,-45.628Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="LINE27" serif:id="LINE" d="M61.112,-43.453L61.112,-46.154" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE28" serif:id="LINE" d="M72.45,-43.453L72.45,-46.154" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <g id="LINE29" serif:id="LINE" transform="matrix(0.568335,0,0,1,26.3798,0)">
+                    <path d="M61.112,-45.628L65.222,-45.628" style="fill:none;stroke:black;stroke-width:0.35px;"/>
+                </g>
+                <g id="LINE30" serif:id="LINE" transform="matrix(0.640304,0,0,1,26.0601,0)">
+                    <path d="M72.45,-45.628L68.34,-45.628" style="fill:none;stroke:black;stroke-width:0.34px;"/>
+                </g>
+                <g id="MTEXT2" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,65.2039,-45.1474)">
+                    <g transform="matrix(0.529167,0,0,0.529167,1.12011,0)">
+                    </g>
+                    <text x="-0.028px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.529px;">{{m}}</text>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
