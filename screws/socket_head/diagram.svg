@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 111 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-27.3898,-50.8208)">
+    <g transform="matrix(1,0,0,1,-27.3898,-50.6159)">
         <g id="_0" serif:id="0" transform="matrix(1,0,0,1,4.23073,126.325)">
             <path id="ARC" d="M33.222,-52.739C34.976,-52.739 36.597,-53.675 37.474,-55.194" style="fill:none;stroke:black;stroke-width:0.28px;"/>
             <path id="SPLINE" d="M37.474,-55.194C37.142,-55.002 33.89,-53.125 33.222,-52.739" style="fill:none;stroke:black;stroke-width:0.28px;"/>
@@ -26,7 +26,9 @@
                 <path id="LINE3" serif:id="LINE" d="M28.97,-74.464L25.618,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
                 <g id="MTEXT" transform="matrix(2.83465,0,0,2.83465,30.4596,-73.638)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">3mm</text>
+                        <g transform="matrix(0.884876,0,0,0.884876,1.77235,0)">
+                        </g>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">{{S}}</text>
                     </g>
                 </g>
             </g>
@@ -35,11 +37,17 @@
                 <path id="SOLID3" serif:id="SOLID" d="M43.143,-40.539L41.4,-40.808L41.4,-40.271L43.143,-40.539Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
                 <path id="LINE4" serif:id="LINE" d="M23.301,-55.853L23.301,-39.642" style="fill:none;stroke:black;stroke-width:0.28px;"/>
                 <path id="LINE5" serif:id="LINE" d="M43.143,-55.853L43.143,-39.642" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE6" serif:id="LINE" d="M23.301,-40.539L30.56,-40.539" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE7" serif:id="LINE" d="M43.143,-40.539L35.88,-40.539" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <g id="MTEXT1" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,30.4477,-39.7201)">
+                <g id="LINE6" serif:id="LINE" transform="matrix(0.770335,0,0,1,5.35139,0)">
+                    <path d="M23.301,-40.539L30.56,-40.539" style="fill:none;stroke:black;stroke-width:0.32px;"/>
+                </g>
+                <g id="LINE7" serif:id="LINE" transform="matrix(0.778376,0,0,1,9.56158,0)">
+                    <path d="M43.143,-40.539L35.88,-40.539" style="fill:none;stroke:black;stroke-width:0.32px;"/>
+                </g>
+                <g id="MTEXT1" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,30.7926,-39.8351)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">7mm</text>
+                        <g transform="matrix(0.884876,0,0,0.884876,1.82117,0)">
+                        </g>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">{{H}}</text>
                     </g>
                 </g>
             </g>
@@ -409,40 +417,29 @@
             <path id="LINE139" serif:id="LINE" d="M133.818,-57.649L133.818,-53.468" style="fill:none;stroke:black;stroke-width:0.28px;"/>
             <path id="LINE140" serif:id="LINE" d="M133.818,-61.83L133.818,-57.649" style="fill:none;stroke:black;stroke-width:0.28px;"/>
             <g id="ROTATED-DIMENSION2" serif:id="ROTATED DIMENSION">
-                <path id="SOLID4" serif:id="SOLID" d="M133.818,-74.464L132.075,-74.733L132.075,-74.196L133.818,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
-                <path id="SOLID5" serif:id="SOLID" d="M77.125,-74.464L78.868,-74.196L78.868,-74.733L77.125,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
-                <path id="LINE141" serif:id="LINE" d="M133.818,-65.114L133.818,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE142" serif:id="LINE" d="M77.125,-69.366L77.125,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE143" serif:id="LINE" d="M133.818,-74.464L108.799,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE144" serif:id="LINE" d="M77.125,-74.464L102.149,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <g id="MTEXT2" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,102.079,-73.638)">
-                    <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">{{length}}</text>
+                <path id="SOLID4" serif:id="SOLID" d="M77.125,-74.464L78.868,-74.196L78.868,-74.733L77.125,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="SOLID5" serif:id="SOLID" d="M65.786,-74.464L64.043,-74.733L64.043,-74.196L65.786,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="LINE141" serif:id="LINE" d="M77.125,-69.366L77.125,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE142" serif:id="LINE" d="M65.786,-69.366L65.786,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE143" serif:id="LINE" d="M77.125,-74.464L80.476,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE144" serif:id="LINE" d="M65.786,-74.464L62.434,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <g id="MTEXT2" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,68.7618,-73.6451)">
+                    <g transform="matrix(1,0,0,1,2.00293,0)">
                     </g>
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1px;">{{K}}</text>
                 </g>
             </g>
-            <g id="ROTATED-DIMENSION3" serif:id="ROTATED DIMENSION">
-                <path id="SOLID6" serif:id="SOLID" d="M77.125,-74.464L78.868,-74.196L78.868,-74.733L77.125,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
-                <path id="SOLID7" serif:id="SOLID" d="M65.786,-74.464L64.043,-74.733L64.043,-74.196L65.786,-74.464Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
-                <path id="LINE145" serif:id="LINE" d="M77.125,-69.366L77.125,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE146" serif:id="LINE" d="M65.786,-69.366L65.786,-75.362" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE147" serif:id="LINE" d="M77.125,-74.464L80.476,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE148" serif:id="LINE" d="M65.786,-74.464L62.434,-74.464" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <g id="MTEXT3" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,68.7618,-73.6451)">
-                    <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">4mm</text>
-                    </g>
-                </g>
-            </g>
-            <g id="MTEXT4" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,109.318,-39.4177)">
+            <g id="MTEXT3" serif:id="MTEXT" transform="matrix(2.83465,0,0,2.83465,113.046,-39.8903)">
                 <g transform="matrix(0.948,0,0,1,0,0)">
-                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">M4 x 0.7mm</text>
+                    <g transform="matrix(0.884876,0,0,0.884876,3.05127,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:0.885px;">{{pitch}}</text>
                 </g>
             </g>
             <g id="LEADER">
-                <path id="SOLID8" serif:id="SOLID" d="M127.996,-50.437L128.857,-51.98L128.543,-50.241L127.996,-50.437Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
-                <path id="LINE149" serif:id="LINE" d="M128.269,-50.339L124.719,-40.428" style="fill:none;stroke:black;stroke-width:0.28px;"/>
-                <path id="LINE150" serif:id="LINE" d="M124.719,-40.428L122.924,-40.428" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="SOLID6" serif:id="SOLID" d="M127.996,-50.437L128.857,-51.98L128.543,-50.241L127.996,-50.437Z" style="stroke:black;stroke-width:0.28px;stroke-linecap:butt;"/>
+                <path id="LINE145" serif:id="LINE" d="M128.269,-50.339L124.719,-40.428" style="fill:none;stroke:black;stroke-width:0.28px;"/>
+                <path id="LINE146" serif:id="LINE" d="M124.719,-40.428L122.924,-40.428" style="fill:none;stroke:black;stroke-width:0.28px;"/>
             </g>
         </g>
     </g>
