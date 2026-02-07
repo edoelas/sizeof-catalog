@@ -1,32 +1,23 @@
-meta:
-  name: "Socket Head Cap Screws"
-  id: "din-912-iso-4762"       # Un ID estable para referencias internas
-  standard: "DIN 912 / ISO 4762"
-  version: "1.0"
+name: "Metric Button Head Screws"
+standard: "ISO 7380-1"
 columns:
   - key: "size"
-    label: "Nominal Size"
-    type: "string"             # M3, M4 son identificadores, no números puros
+    label: "Thread Size"
   - key: "pitch"
-    label: "Thread Pitch"
-    type: "number"
-    unit: "mm"                 # La unidad se define UNA vez aquí
-  - key: "H"
-    label: "Head Diameter (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "K"
-    label: "Height of Head (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "S"
-    label: "Hex Socket Drive"
-    type: "number"
-    unit: "mm"
+    label: "Pitch"
+  - key: "dk"
+    label: "Head Diameter (dk)"
+  - key: "k"
+    label: "Head Height (k)"
+  - key: "s"
+    label: "Hex Drive (s)"
 data:
-  # Los datos son números puros. Más ligeros y fáciles de procesar.
-  - { size: "M3", pitch: 0.5,  H: 5.5,  K: 3.0, S: 2.5}
-  - { size: "M4", pitch: 0.7,  H: 7.0,  K: 4.0, S: 3.0}
-  - { size: "M5", pitch: 0.8,  H: 8.5,  K: 5.0, S: 4.0}
-  - { size: "M6", pitch: 1.0,  H: 10.0, K: 6.0, S: 5.0}
-  - { size: "M8", pitch: 1.25, H: 13.0, K: 8.0, S: 6.0}
+  - { size: "M2", pitch: "0.4mm", dk: "3.5mm", k: "1.3mm", s: "1.3mm" }
+  - { size: "M2.5", pitch: "0.45mm", dk: "4.7mm", k: "1.5mm", s: "1.5mm" }
+  - { size: "M3", pitch: "0.5mm", dk: "5.7mm", k: "1.65mm", s: "2mm" }
+  - { size: "M4", pitch: "0.7mm", dk: "7.6mm", k: "2.2mm", s: "2.5mm" }
+  - { size: "M5", pitch: "0.8mm", dk: "9.5mm", k: "2.75mm", s: "3mm" }
+  - { size: "M6", pitch: "1.0mm", dk: "10.5mm", k: "3.3mm", s: "4mm" }
+  - { size: "M8", pitch: "1.25mm", dk: "14.0mm", k: "4.4mm", s: "5mm" }
+  - { size: "M10", pitch: "1.5mm", dk: "17.5mm", k: "5.5mm", s: "6mm" }
+  - { size: "M12", pitch: "1.75mm", dk: "21.0mm", k: "6.6mm", s: "8mm" }

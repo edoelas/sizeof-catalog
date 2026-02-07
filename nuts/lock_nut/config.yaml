@@ -1,32 +1,23 @@
-meta:
-  name: "Socket Head Cap Screws"
-  id: "din-912-iso-4762"       # Un ID estable para referencias internas
-  standard: "DIN 912 / ISO 4762"
-  version: "1.0"
+name: "Metric Nylon Insert Lock Nuts"
+standard: "ISO 7040"
 columns:
   - key: "size"
-    label: "Nominal Size"
-    type: "string"             # M3, M4 son identificadores, no números puros
+    label: "Thread Size"
   - key: "pitch"
-    label: "Thread Pitch"
-    type: "number"
-    unit: "mm"                 # La unidad se define UNA vez aquí
-  - key: "H"
-    label: "Head Diameter (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "K"
-    label: "Height of Head (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "S"
-    label: "Hex Socket Drive"
-    type: "number"
-    unit: "mm"
+    label: "Pitch"
+  - key: "s"
+    label: "Width Across Flats (s)"
+  - key: "h"
+    label: "Height (h)"
 data:
-  # Los datos son números puros. Más ligeros y fáciles de procesar.
-  - { size: "M3", pitch: 0.5,  H: 5.5,  K: 3.0, S: 2.5}
-  - { size: "M4", pitch: 0.7,  H: 7.0,  K: 4.0, S: 3.0}
-  - { size: "M5", pitch: 0.8,  H: 8.5,  K: 5.0, S: 4.0}
-  - { size: "M6", pitch: 1.0,  H: 10.0, K: 6.0, S: 5.0}
-  - { size: "M8", pitch: 1.25, H: 13.0, K: 8.0, S: 6.0}
+  - { size: "M2", pitch: "0.4mm", s: "4mm", h: "2.5mm" }
+  - { size: "M2.5", pitch: "0.45mm", s: "5mm", h: "3.5mm" }
+  - { size: "M3", pitch: "0.5mm", s: "5.5mm", h: "4.5mm" }
+  - { size: "M4", pitch: "0.7mm", s: "7mm", h: "6.0mm" }
+  - { size: "M5", pitch: "0.8mm", s: "8mm", h: "6.8mm" }
+  - { size: "M6", pitch: "1.0mm", s: "10mm", h: "8.0mm" }
+  - { size: "M8", pitch: "1.25mm", s: "13mm", h: "9.5mm" }
+  - { size: "M10", pitch: "1.5mm", s: "16mm", h: "11.9mm" }
+  - { size: "M12", pitch: "1.75mm", s: "18mm", h: "14.9mm" }
+  - { size: "M16", pitch: "2.0mm", s: "24mm", h: "19.1mm" }
+  - { size: "M20", pitch: "2.5mm", s: "30mm", h: "22.8mm" }

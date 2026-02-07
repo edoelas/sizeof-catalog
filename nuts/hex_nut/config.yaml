@@ -1,5 +1,5 @@
 name: "Metric Hex Nuts"
-standard: "DIN 934"
+standard: "ISO 4032"
 columns:
   - key: "size"
     label: "Thread Size"
@@ -14,10 +14,10 @@ data:
   - { size: "M2.5", pitch: "0.45mm", s: "5mm", m: "2mm" }
   - { size: "M3", pitch: "0.5mm", s: "5.5mm", m: "2.4mm" }
   - { size: "M4", pitch: "0.7mm", s: "7mm", m: "3.2mm" }
-  - { size: "M5", pitch: "0.8mm", s: "8mm", m: "4mm" }
-  - { size: "M6", pitch: "1.0mm", s: "10mm", m: "5mm" }
-  - { size: "M8", pitch: "1.25mm", s: "13mm", m: "6.5mm" }
-  - { size: "M10", pitch: "1.5mm", s: "17mm", m: "8mm" }
-  - { size: "M12", pitch: "1.75mm", s: "19mm", m: "10mm" }
-  - { size: "M16", pitch: "2.0mm", s: "24mm", m: "13mm" }
-  - { size: "M20", pitch: "2.5mm", s: "30mm", m: "16mm" }
+  - { size: "M5", pitch: "0.8mm", s: "8mm", m: "4.7mm" }
+  - { size: "M6", pitch: "1.0mm", s: "10mm", m: "5.2mm" }
+  - { size: "M8", pitch: "1.25mm", s: "13mm", m: "6.8mm" }
+  - { size: "M10", pitch: "1.5mm", s: "16mm", m: "8.4mm" }
+  - { size: "M12", pitch: "1.75mm", s: "18mm", m: "10.8mm" }
+  - { size: "M16", pitch: "2.0mm", s: "24mm", m: "14.8mm" }
+  - { size: "M20", pitch: "2.5mm", s: "30mm", m: "18.0mm" }
