@@ -25,7 +25,7 @@
                 <path id="LINE3" serif:id="LINE" d="M60.766,-98.392L51.147,-98.392" style="fill:none;stroke:black;stroke-width:0.1px;"/>
                 <g id="MTEXT" transform="matrix(2.834646,0,0,2.834646,41.682661,-97.259982)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">10mm</text>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{dk}}</text>
                     </g>
                 </g>
             </g>
@@ -38,7 +38,7 @@
                 <path id="LINE7" serif:id="LINE" d="M50.845,-42.406L57.613,-42.406" style="fill:none;stroke:black;stroke-width:0.1px;"/>
                 <g id="MTEXT1" serif:id="MTEXT" transform="matrix(2.834646,0,0,2.834646,57.475175,-41.273835)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">3mm</text>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{s}}</text>
                     </g>
                 </g>
             </g>
@@ -330,7 +330,7 @@
                 <path id="LINE110" serif:id="LINE" d="M169.43,-64.742L169.43,-69.995" style="fill:none;stroke:black;stroke-width:0.1px;"/>
                 <g id="MTEXT2" serif:id="MTEXT" transform="matrix(2.834646,0,0,2.834646,165.651631,-70.706299)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">5mm</text>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{size}}</text>
                     </g>
                 </g>
             </g>
@@ -356,7 +356,7 @@
                 <path id="LINE116" serif:id="LINE" d="M102.534,-55.916L98.297,-51.678" style="fill:none;stroke:black;stroke-width:0.1px;"/>
                 <g id="MTEXT4" serif:id="MTEXT" transform="matrix(2.834646,0,0,2.834646,86.4898,-70.69656)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">90deg</text>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{angle}}</text>
                     </g>
                 </g>
             </g>
@@ -369,13 +369,13 @@
                 <path id="LINE120" serif:id="LINE" d="M103.877,-96.835L99.285,-96.835" style="fill:none;stroke:black;stroke-width:0.1px;"/>
                 <g id="MTEXT5" serif:id="MTEXT" transform="matrix(2.834646,0,0,2.834646,118.494328,-95.702874)">
                     <g transform="matrix(0.948,0,0,1,0,0)">
-                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">2.8mm</text>
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{k}}</text>
                     </g>
                 </g>
             </g>
             <g id="MTEXT6" serif:id="MTEXT" transform="matrix(2.834646,0,0,2.834646,169.213866,-98.835804)">
                 <g transform="matrix(0.948,0,0,1,0,0)">
-                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">M5 x 0.8mm</text>
+                    <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1.212px;">{{size}} x {{pitch}}</text>
                 </g>
             </g>
             <g id="LEADER">

@@ -1,32 +1,28 @@
 meta:
-  name: "Socket Head Cap Screws"
-  id: "din-912-iso-4762"       # Un ID estable para referencias internas
-  standard: "DIN 912 / ISO 4762"
+  name: "Metric Flat Head Screws"
+  id: "iso-10642"
+  standard: "ISO 10642"
+  status: "ai-generated"
   version: "1.0"
 columns:
   - key: "size"
-    label: "Nominal Size"
-    type: "string"             # M3, M4 son identificadores, no números puros
+    label: "Thread Size"
+    type: "string"
   - key: "pitch"
-    label: "Thread Pitch"
-    type: "number"
-    unit: "mm"                 # La unidad se define UNA vez aquí
-  - key: "H"
-    label: "Head Diameter (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "K"
-    label: "Height of Head (Max)"
-    type: "number"
-    unit: "mm"
-  - key: "S"
-    label: "Hex Socket Drive"
-    type: "number"
-    unit: "mm"
+    label: "Pitch"
+    type: "string"
+  - key: "dk"
+    label: "Head Diameter (dk)"
+  - key: "k"
+    label: "Head Height (k)"
+  - key: "s"
+    label: "Hex Drive (s)"
+  - key: "angle"
+    label: "Angle"
 data:
-  # Los datos son números puros. Más ligeros y fáciles de procesar.
-  - { size: "M3", pitch: 0.5,  H: 5.5,  K: 3.0, S: 2.5}
-  - { size: "M4", pitch: 0.7,  H: 7.0,  K: 4.0, S: 3.0}
-  - { size: "M5", pitch: 0.8,  H: 8.5,  K: 5.0, S: 4.0}
-  - { size: "M6", pitch: 1.0,  H: 10.0, K: 6.0, S: 5.0}
-  - { size: "M8", pitch: 1.25, H: 13.0, K: 8.0, S: 6.0}
+  - { size: "M3", pitch: "0.5mm", dk: "6mm", k: "1.7mm", s: "2mm", angle: "90deg" }
+  - { size: "M4", pitch: "0.7mm", dk: "8mm", k: "2.3mm", s: "2.5mm", angle: "90deg" }
+  - { size: "M5", pitch: "0.8mm", dk: "10mm", k: "2.8mm", s: "3mm", angle: "90deg" }
+  - { size: "M6", pitch: "1.0mm", dk: "12mm", k: "3.3mm", s: "4mm", angle: "90deg" }
+  - { size: "M8", pitch: "1.25mm", dk: "16mm", k: "4.4mm", s: "5mm", angle: "90deg" }
+  - { size: "M10", pitch: "1.5mm", dk: "20mm", k: "5.5mm", s: "6mm", angle: "90deg" }

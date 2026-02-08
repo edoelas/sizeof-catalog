@@ -1,5 +1,6 @@
 name: "Metric Button Head Screws"
 standard: "ISO 7380-1"
+status: "ai-generated"
 columns:
   - key: "size"
     label: "Thread Size"

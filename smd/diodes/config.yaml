@@ -1,5 +1,6 @@
 name: "SMD Chip Resistor"
 standard: "JEDEC"
+status: "draft"
 columns:
   - key: "package"
     label: "Package"

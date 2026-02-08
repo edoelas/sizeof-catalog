@@ -2,6 +2,7 @@ meta:
   name: "Socket Head Cap Screws"
   id: "din-912-iso-4762"       # Un ID estable para referencias internas
   standard: "DIN 912 / ISO 4762"
+  status: "draft"
   version: "1.0"
 columns:
   - key: "size"

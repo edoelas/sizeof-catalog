@@ -1,5 +1,6 @@
 name: "Metric Hex Nuts"
 standard: "ISO 4032"
+status: "ai-generated"
 columns:
   - key: "size"
     label: "Thread Size"

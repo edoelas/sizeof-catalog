@@ -1,5 +1,6 @@
 name: "Metric Nylon Insert Lock Nuts"
 standard: "ISO 7040"
+status: "ai-generated"
 columns:
   - key: "size"
     label: "Thread Size"
