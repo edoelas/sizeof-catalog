@@ -18,12 +18,12 @@
     <line x1="0" y1="100" x2="200" y2="100" class="dim-line" />
     <line x1="0" y1="85" x2="0" y2="105" stroke="#000" />
     <line x1="200" y1="85" x2="200" y2="105" stroke="#000" />
-    <text id="val_L" x="100" y="95" class="dim-text">L</text>
+    <text id="val_L" x="100" y="95" class="dim-text">{{L}}</text>
     
     <!-- W dimension -->
     <line x1="-20" y1="0" x2="-20" y2="80" class="dim-line" />
     <line x1="-15" y1="0" x2="-25" y2="0" stroke="#000" />
     <line x1="-15" y1="80" x2="-25" y2="80" stroke="#000" />
-    <text id="val_W" x="-30" y="45" class="dim-text" transform="rotate(-90 -30 45)">W</text>
+    <text id="val_W" x="-30" y="45" class="dim-text" transform="rotate(-90 -30 45)">{{W}}</text>
   </g>
 </svg>
